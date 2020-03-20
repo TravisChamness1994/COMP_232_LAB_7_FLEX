@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="flex_intro"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flex">
+				<Option output="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/flex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/src"/>
+					<Add directory="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 flex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flex/fast">
+				<Option output="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/flex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/src"/>
+					<Add directory="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 flex/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/lexer.c">
+			<Option target="flex"/>
+		</Unit>
+		<Unit filename="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/lexer.c.rule">
+			<Option target="flex"/>
+		</Unit>
+		<Unit filename="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/parser.c">
+			<Option target="flex"/>
+		</Unit>
+		<Unit filename="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/parser.c.rule">
+			<Option target="flex"/>
+		</Unit>
+		<Unit filename="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/parser.h">
+			<Option target="flex"/>
+		</Unit>
+		<Unit filename="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/src/flex.c">
+			<Option target="flex"/>
+		</Unit>
+		<Unit filename="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/src/flex.h">
+			<Option target="flex"/>
+		</Unit>
+		<Unit filename="/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
