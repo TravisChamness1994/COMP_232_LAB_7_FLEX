@@ -8,7 +8,7 @@ int main(int argc, char **argv)
     freopen(argv[1], "r", stdin);
 
     /*
-     * TODO
+     * TODO - TokenTypeStrings - Work
      * complete the array below to get string labels for TOKEN types
      * based on the TOKEN enumerator.
      * tokenTypeStrings[IF_TOKEN] should be "if"
@@ -16,10 +16,19 @@ int main(int argc, char **argv)
      */
     char *tokenTypeStrings[] = {
             "eof",
-            "if",
+            "ident",
             "float",
-            "ident"
-            //etc
+            "int",
+            "assign",
+            "lparen",
+            "rparen",
+            "if",
+            "while",
+            "repeat",
+            "print",
+            "semicolon",
+            "addOP",
+            "multOP"
     };
 
     printf("\n");

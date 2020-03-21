@@ -26,27 +26,3 @@ flex.h
 unistd.h
 -
 
-/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/cmake-build-debug/parser.c
-stddef.h
--
-libintl.h
--
-alloca.h
--
-malloc.h
--
-stdlib.h
--
-stdlib.h
--
-stdio.h
--
-
-/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/src/flex.c
-flex.h
-/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/src/flex.h
-
-/home/travis/Desktop/COMP_232L/COMP_232_LAB_7_FLEX-master/lab_7_flex/src/flex.h
-stdio.h
--
-
